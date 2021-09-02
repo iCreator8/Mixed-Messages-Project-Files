@@ -1,6 +1,7 @@
-let apple = redColor;
-let banana = yellowColor;
+let x = 2;
+let y = 5;
 
-let mixedFriut = apple + banana;
+let apple = x * y;
 
+console.log(apple);
 
