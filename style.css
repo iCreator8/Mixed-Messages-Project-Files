@@ -5,15 +5,21 @@ border: 0;
 
 body {
     background-color:yellowgreen;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px */
+}
+
+.frame {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px
-}
 
-.frame {
   border: 3px solid black;
+  margin: 10em 22em;
   padding: 6em 12em;
   border-radius: 30px;
   background-color: blue;
@@ -25,7 +31,7 @@ body {
 text-align: center;
 }
 
-.question input{
+.question h5{
     border: 2px solid black;
     margin-top: 2em;
     padding: 0.5em;
@@ -33,7 +39,7 @@ text-align: center;
     width: 350px;
     justify-content: center;
 text-align: center;
-background-color: pink
+background-color: lightgrey;
 }
 
 .btn button{

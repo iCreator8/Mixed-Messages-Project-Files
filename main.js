@@ -1,7 +1,10 @@
-let x = 2;
-let y = 5;
+const backgroundColor = document.querySelector('.frame');
+const buttonPress = document.querySelector(".btn button");
+ const colorOutput = document.querySelector(".outputs input");
 
-let apple = x * y;
 
-console.log(apple);
+backgroundColor.style.backgroundColor = 'skyblue';
 
+ colorOutput.style.backgroundColor = 'red';
+
+ buttonPress.style.backgroundColor = 'green';
