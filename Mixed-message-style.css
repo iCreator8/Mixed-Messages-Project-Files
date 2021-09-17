@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: none;
+}
+
+
+.frameColor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 3px solid black;
+    border-radius: 40px;
+    margin: 9em 11em;
+    padding: 5em 5em;
+    background-color: red;
+    font-family: cursive; */
+}
+
+.colorBox,
+.question,
+.btn,
+.outputs {
+    text-align: center;
+}
+
+.colorBox input {
+    border: 4px solid black;
+    margin-top: 2em;
+    padding: 5px;
+    border-radius: 12px;
+    width: 120px;
+    justify-content: center;
+    background-color: none;
+}
+
+.colorBox h5 {
+    margin-top: 4px;
+    font-family: cursive;
+}
+
+
+.question h5 {
+    border: 4px solid black;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.btn input {
+    border: 4px solid black;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+    font-family: cursive;
+    background-color: blue;
+}
+
+.outputs input {
+    border: 4px solid black;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    font-family: cursive;
+    color: white;
+    text-transform: uppercase;
+}
+
+.question ::placeholder {
+    color: black;
+}
+
+.outputs ::placeholder {
+    color: lightgray;
+}
